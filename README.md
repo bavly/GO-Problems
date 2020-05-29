@@ -1,2 +1,4 @@
 # GO-Problems
-GO-Problems from 
+Solve GO-Problems from 
+
+## https://gophercises.com/
