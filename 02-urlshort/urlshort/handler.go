@@ -58,6 +58,7 @@ func YAMLHandler(data []byte, fallback http.Handler) (http.HandlerFunc, error) {
 	var parsedYamlData []yamlData
 	if err := yaml.Unmarshal([]byte(data), &parsedYamlData); err != nil {
 		return nil, err
+
 	}
 	fmt.Printf("%+v\n", parsedYamlData)
 	// build pathsToUrls from the parsed YAML data
